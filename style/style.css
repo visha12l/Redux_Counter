@@ -1,0 +1,61 @@
+body {
+  font-family: Roboto Slab;
+  background: linear-gradient(-150deg,#24c7f9,#07b0e3);
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 100px;
+  line-height: 1;
+}
+
+.wrap {
+  font-size: 200%;
+  padding: 50px;
+  margin: 50px auto;
+  border-radius: 5px;
+  background: #fefefe;
+  width: 600px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(darken(#24c7f9, 15%), 0.5);
+}
+
+button {
+  padding: 5px;
+  vertical-align: middle;
+  border-radius: 3px;
+  color: #fefefe;
+  border: 3px solid;
+  background: #fefefe;
+  transition: transform 60ms ease-out;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+button:active {
+  transform: translateY(2px);
+  transition: transform 100ms ease-out;
+}
+
+button:hover,
+button:focus {
+  outline: none;
+}
+
+.button {
+  width: 70px;
+}
+
+.incrementBtn {
+  color: #5cb85c;
+}
+
+.decrementBtn {
+  color: #E67373;
+}
+
+.resetBtn {
+  color: #ff9d5d;
+  width: 100px;
+}
